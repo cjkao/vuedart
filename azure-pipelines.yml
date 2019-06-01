@@ -15,6 +15,6 @@ steps:
 - script: wget https://storage.googleapis.com/dart-archive/channels/stable/release/2.3.1/sdk/dartsdk-linux-x64-release.zip
   displayName: 'load sdk'
 - script: |
-    ls *.zip
-    echo See https://aka.ms/yaml
+    unzip dartsdk-linux-x64-release.zip
+    ls -l
   displayName: 'Run a multi-line script'
